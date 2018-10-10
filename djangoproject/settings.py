@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')jacwc$*y%2e9!k2_%3s6zb!@#cf#&*(4m-w7m#0q20lg-%*xb'
+SECRET_KEY = 'SECRET KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'djangoproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sank',
-        'USER': 'sank',
-        'PASSWORD': '123456',
+        'NAME': 'DB NAME',
+        'USER': 'DB USERNAME',
+        'PASSWORD': 'DB PASSWORD',
         'HOST':'localhost',
         'PORT':''
     }
